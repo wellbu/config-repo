@@ -1,20 +1,20 @@
-spring:
-  application:
-    name: order
+# spring:
+#   application:
+#     name: order
 
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/food_order?characterEncoding=utf8&useSSL=true
-    username: root
-    password: cetiti123
-  jpa:
-    show-sql: true
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8762/eureka/
-env:
-  test888
-girl:
-  name: lili
-  age: 106
+#   datasource:
+#     driver-class-name: com.mysql.jdbc.Driver
+#     url: jdbc:mysql://127.0.0.1:3306/food_order?characterEncoding=utf8&useSSL=true
+#     username: root
+#     password: cetiti123
+#   jpa:
+#     show-sql: true
+# eureka:
+#   client:
+#     service-url:
+#       defaultZone: http://localhost:8762/eureka/
+# env:
+#   test888
+# girl:
+#   name: lili
+#   age: 106
